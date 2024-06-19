@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(./image/image.png);
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+p {
+    color: black; /* Substitua "blue" pela cor desejada */
+}
+
+/* Você também pode definir cores para outras tags */
+h1 {
+    color: rgb(81, 255, 0);
+}
+
+label {
+    color: rgb(102, 255, 0);
+}
+
+.custom-color {
+    color: black; /* Código hexadecimal para uma cor personalizada (Tomato) */
+}
